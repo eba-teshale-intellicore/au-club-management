@@ -1,0 +1,256 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+  position: sticky;
+  top: 0;
+    z-index: 1;
+
+}
+.sticky{
+    background-color: rgb(254, 254, 255);
+    background-size: 0 0 0 0;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin: 0%;
+  }
+
+.logo{
+    padding: 0 15px 0 15px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    list-style: none;
+
+    margin-left: 20px;
+     padding-left: 500px;
+    font-size: 18px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    margin-right: 20px;
+}
+.button button{
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: rgb(24, 8, 243);
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+.home{
+  background-image:url("../images/background.jpg");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  position:relative;
+  justify-content: center;
+  max-height: 104vh;
+}
+.opa{
+  background: rgba(0, 0, 0, 0.3);
+}
+.split{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 40px;
+  grid-template-columns: 1fr 1fr;
+}
+.left{ 
+  flex:3;
+  padding: 266px 0px 10px 0px;
+  font-weight: 700;
+  background-attachment: fixed;
+  font-size: 25px;
+
+}
+.log{
+  background-color: white;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 10px 40px 10px 40px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+}
+.color{
+  color: white;
+}
+.right{
+  flex:5;
+  margin: 400px 0px 0px 0px;
+  font-weight: 700;
+  padding: 50px;
+  justify-content: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: rgb(199, 221, 102);
+}
+.right div{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  }
+  .bag{
+   background-color: #9bce8f;
+  }
+  .moto{
+    background-color: rgba(16, 44, 39, 0.925);
+    padding: 100px 460px 100px 460px;
+    font-size: 7vh;
+    font-weight: 800px;
+  }
+  .linee{
+  height: 1px;
+  background: #665656;
+  width: 100%;
+  margin-top: 60px;
+  }
+  .red{
+    color: #a01b5e;
+  }
+  .co{
+    color: #f18e0b;
+    }
+  .col{
+    color: #43afaa;
+  }
+.colo{
+      color: #1fad1f;
+}
+  
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 0 4rem;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  border: 1.5px solid #3639e7;
+  border-radius: 2px;
+  background-color: rgb(201, 229, 236);
+  box-shadow: 0.2px 5px rgba(214, 199, 199, 0.3);
+  padding: 0;
+  .sect{
+    background: rgb(25, 53, 175);
+    border: #3639e7 1px solid;
+  }
+
+  h2{
+    padding: 1rem;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+#dot{
+  display: flex;
+  align-items: center;
+  padding: 50px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.stat{
+  width: 60%;
+}
+.dot.h1{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.dot.p{
+  color:#555 ;
+}
+.stat{
+  width: 30%;
+  text-align: center;
+}
+.line{
+  height: 1px;
+  background: #665656;
+  width: 100%;
+}
+#club{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  button{
+    padding: 0.5rem 2rem;
+  }
+  a{
+    text-decoration: none;   
+    color: #333; 
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+.reason{
+  display: grid;
+  grid-template-columns: repeat(4, 287px);
+   gap: 1rem;
+   position: relative;
+}
+ .marg{
+
+    margin-bottom: 80px;
+    font-size: 30px; 
+}
+.reason div{
+  top: 0;
+  left: 0;
+}
+footer{
+  background-color: #233021;
+  color: #ccc6c6;
+}
+.foot{
+  padding: 0 20px 50px 70px;
+}
+.ftop{
+  display: flex;
+  flex-direction: row;
+   gap: 100px;
+}
+a{
+  text-decoration: none;
+  color: #3639e7;
+}
+.fbottom{
+    display: flex;
+  flex-direction: row;
+  gap: 25rem;
+  margin :5px 90px 0 40px;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.social-icons img{
+  width: 30px;
+  height: 30px;
+
+}
+.sectf{
+  padding: 50px 80px;
+} 
